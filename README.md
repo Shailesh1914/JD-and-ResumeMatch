@@ -1,2 +1,3 @@
-# JD-and-ResumeMatch
-In this project we will build a job description and resume matching system using Python with machine learning techniques
+# Job Description-and-ResumeMatch System
+In this project we will build a job description and resume matching system using Machine Learning in Python. This will assist in the recruitmenet process. Recruitment representative will have option to input job description (by copy and paste) and upload resumes. Output will be in terms of number between 0 and 1. Number that is greater than 0 and close to 1 implies better match. The application will assist recruiter to find the resume that better match with the job description in efficient way.  
+Job description and resumes are vectorized and cosine similarity is calculated between them. The value 0 implies no match and value 1 imples full match hence the greater the number between 0 and 1 the better the match between JD and resume. 
